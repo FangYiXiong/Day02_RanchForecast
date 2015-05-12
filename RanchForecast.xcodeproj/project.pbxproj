@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32B2E9541B02696E009DF32A /* CourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2E9521B0268E6009DF32A /* CourseTests.swift */; };
+		32B2E9561B026AA0009DF32A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B2E9551B026AA0009DF32A /* Constants.swift */; };
 		A61D25E81AA10950004263A3 /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D25E71AA10950004263A3 /* CourseListViewController.swift */; };
 		A61D25EA1AA10EBD004263A3 /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61D25E91AA10EBD004263A3 /* ScheduleFetcher.swift */; };
 		A675317B1A9FCAAD0015E415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675317A1A9FCAAD0015E415 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		32B2E9521B0268E6009DF32A /* CourseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CourseTests.swift; path = ../RanchForecast/CourseTests.swift; sourceTree = "<group>"; };
+		32B2E9551B026AA0009DF32A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../Constants.swift; sourceTree = "<group>"; };
 		A61D25E71AA10950004263A3 /* CourseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
 		A61D25E91AA10EBD004263A3 /* ScheduleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcher.swift; sourceTree = "<group>"; };
 		A67531751A9FCAAD0015E415 /* RanchForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 		A675318D1A9FCAAD0015E415 /* RanchForecastTests */ = {
 			isa = PBXGroup;
 			children = (
+				32B2E9551B026AA0009DF32A /* Constants.swift */,
 				32B2E9521B0268E6009DF32A /* CourseTests.swift */,
 				A675318E1A9FCAAD0015E415 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B2E9541B02696E009DF32A /* CourseTests.swift in Sources */,
+				32B2E9561B026AA0009DF32A /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
